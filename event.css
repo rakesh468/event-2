@@ -1,0 +1,51 @@
+.container {
+  border: 1px solid black;
+  height: 500px;
+  margin-top: 20px;
+}
+
+.box1 {
+  text-align: center;
+}
+
+.box {
+  height: 350px;
+  width: 100%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  border: 1px solid black;
+}
+.textbox {
+  text-align: justify;
+}
+
+.img-responsive {
+  height: 250px;
+  width: 100%;
+  object-fit: contain;
+  margin-left: 5px;
+  margin-top: 5px;
+  overflow: hidden;
+}
+
+.img {
+  height: 250px;
+  width: 250px;
+  margin-top: 10px;
+}
+
+input {
+  color: rgb(32, 23, 19);
+}
+
+.textbox {
+  padding: 20px;
+}
+
+@media (max-width: 480px) {
+  .box {
+    display: flex;
+    flex-direction: column;
+  }
+}
